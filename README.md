@@ -23,7 +23,12 @@ No collaborators
 
 
 ## Features
-
+- Navigation bar & navigation menu at top, with working links
+- Hero section, making use of Bootstrap's jumbotron
+- Work section, displaying projects using Bootstrap cards and grid positioning
+- Skills section, declaring technical skills learnt.
+- Contact section, signalling personal contact points
+- Footer section, with hover effects on links.
 
 
 ## License
