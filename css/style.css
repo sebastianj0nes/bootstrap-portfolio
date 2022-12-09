@@ -1,0 +1,42 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+nav{
+    position: fixed;
+}
+
+.container{
+
+} */
+
+/* Set colour variable */
+:root{
+    --primary:#fdfcdc;
+}
+
+/* Jumbotron */
+.jumbotron{
+    background-image: url(/Users/user/bootcamp/challenge_repos/bootstrap-portfolio/images/jb_bg.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 15px;
+    color: var(--primary);
+    text-align: center;
+}
+
+.jumbotron h1{
+    text-align: left;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+}
+
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #8064A2 !important;
+    border: none;
+}
