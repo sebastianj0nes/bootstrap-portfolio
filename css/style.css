@@ -124,6 +124,8 @@ nav{
     text-align: center;
   }
   .card {
+    background-color:var(--primary);
+    border: 5px solid var(--three);
     margin: 0 auto;
   }
   
@@ -131,8 +133,23 @@ nav{
     max-height: 400px;
     max-width: 360px;
 }
+.card-title{
+    font-size: 25px;
+    color: var(--four);
+}
+.card-text{
+    font-size: 16px;
+}
 
-
+.skill_head{
+    font: 5em/1 Open Sans, Impact;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 55px;
+}
+#skills{
+    background-color: var(--two);
+}
 
 
 /* ADDITIONAL CSS (button effect etc) */
