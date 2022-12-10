@@ -18,13 +18,14 @@ nav{
     /* Main aspects of page */
     --primary:#fed9b7;
     --button_bg:bisque;
-    --text_colour:#f17f29;
+    --text_colour:#386641;
 
     /* Animation colours */
     --one:#80ed99;
     --two:#5fa8d3;
     --three:#ffb600;
     --four:#403d39;
+    --fifth:#F2385A;
 }
 
 
@@ -42,18 +43,28 @@ nav{
     align-items: center;
 }
 
-.navbar h1{
-    text-align: center;
-    color:var(--primary);
-}
 /* .navbar a{
     color: var(--primary);
     text-decoration: none;
     font-size: 30px;
 } */
+#skill_btn:hover{
+    color: var(--three)!important;
+}
+#abt_btn:hover{
+    color: var(--two)!important;
+}
+#work_btn:hover{
+    color: var(--fifth)!important;
+}
+#cont_btn:hover{
+    color: var(--one)!important;
+}
+
 
 .btn-one{
     font-size: 30px !important;
+    color: var(--four)!important;
 }
 
 .navbar li{
@@ -63,25 +74,36 @@ nav{
 
 /* Jumbotron */
 .jumbotron{
-    background-image: url(/Users/user/bootcamp/challenge_repos/bootstrap-portfolio/images/jb_bg.jpeg);
+    border-top: 5px solid var(--one);
+    border-bottom: 5px solid var(--one);
+    background-image: url(/Users/user/bootcamp/challenge_repos/bootstrap-portfolio/images/mb_b4.jpeg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    height: 400px;
     padding: 15px;
     color: var(--primary);
     text-align: center;
+    font-family: 'Trebuchet MS', sans-serif;
 }
 
-.jumbotron h1{
-    color: #f07167;
-    text-align: left;
-    text-shadow: -1px -1px 0 var(--primary), 1px -1px 0 var(--primary), -1px 1px 0 var(--primary), 1px 1px 0 var(--primary);
+.jumbotron{
+    font-family: "Nova Flat";
+    color: #bbd0ff;
+    text-align: middle;
+    text-shadow: -1px -1px 0 var(--four), 1px -1px 0 var(--four), -1px 1px 0 var(--four), 1px 1px 0 var(--four);
 }
 
-.navbar img{
+.container img{
     border-radius: 40%;
     max-height: 150px;
     max-width: 150px;
+    padding: 0;
+    margin: 0;
+}
+
+.jumbotron p{
+    font-size: 20px;
     float: right;
 }
 
@@ -172,7 +194,7 @@ nav{
 
 /* navbar button effect */
 .btn-one {
-    color: #403d39;
+    color: #dce2c8;
     transition: all 0.3s;
     position: relative;
   }
