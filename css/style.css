@@ -15,9 +15,15 @@ nav{
 
 /* Set colour variable */
 :root{
+    /* Main aspects of page */
     --primary:#fed9b7;
-    --button_bg:#f07167;
+    --button_bg:bisque;
     --text_colour:#f07167;
+
+    /* Animation colours */
+    --one:#80ed99;
+    --two:#5fa8d3;
+    --three:#ffb600;
 }
 
 
@@ -33,7 +39,6 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--button_bg)!important;
 }
 
 .navbar h1{
@@ -51,7 +56,6 @@ nav{
 }
 
 .navbar li{
-    float: left;
     padding: 10px;
     list-style-type:none;
 }
@@ -233,7 +237,7 @@ nav{
   animation-delay: -1.2s;
 }
 .text:nth-child(5n + 2) {
-  stroke: #F5A503;
+  stroke: var(--three);
   -webkit-animation-delay: -2.4s;
   animation-delay: -2.4s;
 }
@@ -243,12 +247,12 @@ nav{
   animation-delay: -3.6s;
 }
 .text:nth-child(5n + 4) {
-  stroke: #56D9CD;
+  stroke: var(--one);
   -webkit-animation-delay: -4.8s;
   animation-delay: -4.8s;
 }
 .text:nth-child(5n + 5) {
-  stroke: #3AA1BF;
+  stroke: var(--two);
   -webkit-animation-delay: -6s;
   animation-delay: -6s;
 }
@@ -266,8 +270,8 @@ nav{
 
 .animatedfont {
     padding: 10px;
-    background: bisque;
+    background: var(--text_colour);
     font: 5em/1 Open Sans, Impact;
     text-transform: uppercase;
-    margin-top: 150px;
+    text-align: center;
 }
