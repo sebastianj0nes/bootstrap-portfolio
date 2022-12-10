@@ -43,11 +43,7 @@ nav{
     align-items: center;
 }
 
-/* .navbar a{
-    color: var(--primary);
-    text-decoration: none;
-    font-size: 30px;
-} */
+/* Hover effects on nav button */
 #skill_btn:hover{
     color: var(--three)!important;
 }
@@ -61,22 +57,37 @@ nav{
     color: var(--one)!important;
 }
 
+a{
+
+}
 
 .btn-one{
     font-size: 30px !important;
     color: var(--four)!important;
 }
 
-.navbar li{
-    padding: 10px;
-    list-style-type:none;
+#skill_work_btn{
+    text-decoration: none;
+    background-color: var(--fifth);
+    padding: 15px;
 }
+
+/* Animated Font */
+
+.animatedfont {
+    padding: 10px;
+    background: var(--text_colour);
+    font: 5em/1 Open Sans, Impact;
+    text-transform: uppercase;
+    text-align: center;
+}
+
 
 /* Jumbotron */
 .jumbotron{
     border-top: 5px solid var(--one);
     border-bottom: 5px solid var(--one);
-    background-image: url(/Users/user/bootcamp/challenge_repos/bootstrap-portfolio/images/mb_b4.jpeg);
+    background-image: url(/Users/user/bootcamp/challenge_repos/bootstrap-portfolio/images/mb_b6.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -89,6 +100,7 @@ nav{
 
 .jumbotron h1{
     padding-top: 40px; 
+    padding-bottom: 20px;
     font-family: "Nova Flat";
     color: #3a86ff;
     text-align: middle;
@@ -160,8 +172,8 @@ nav{
     height: 50px;
     border: none;
     outline: none;
-    color: #fff;
-    background: var(--button_bg);
+    color:var(--four);
+    background: var(--text_colour);
     cursor: pointer;
     position: relative;
     z-index: 0;
@@ -186,7 +198,7 @@ nav{
 }
 
 .glow-on-hover:active {
-    color: var(--button_bg);
+    color: var(--text_colour);
 }
 
 .glow-on-hover:active:after {
@@ -203,7 +215,7 @@ nav{
     position: absolute;
     width: 100%;
     height: 100%;
-    background: var(--button_bg);
+    background: var(--text_colour);
     left: 0;
     top: 0;
     border-radius: 10px;
@@ -217,7 +229,6 @@ nav{
 
 /* navbar button effect */
 .btn-one {
-    color: #dce2c8;
     transition: all 0.3s;
     position: relative;
   }
@@ -312,12 +323,5 @@ nav{
     stroke-dashoffset: -400;
   }
 }
-/* Other styles */
 
-.animatedfont {
-    padding: 10px;
-    background: var(--text_colour);
-    font: 5em/1 Open Sans, Impact;
-    text-transform: uppercase;
-    text-align: center;
-}
+
