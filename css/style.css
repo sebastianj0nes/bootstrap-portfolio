@@ -93,7 +93,6 @@ a{
     background-repeat: no-repeat;
     height: 400px;
     padding: 15px;
-    color: var(--primary);
     text-align: center;
     font-family: 'Trebuchet MS', sans-serif;
 }
@@ -102,10 +101,12 @@ a{
     padding-top: 40px; 
     padding-bottom: 20px;
     font-family: "Nova Flat";
-    color: #3a86ff;
+    color: var(--primary);
     text-align: middle;
-    text-shadow: -1px -1px 0 var(--four), 1px -1px 0 var(--four), -1px 1px 0 var(--four), 1px 1px 0 var(--four);
-
+    text-shadow: -1px -1px 0 var(--fifth), 1px -1px 0 var(--fifth), -1px 1px 0 var(--fifth), 1px 1px 0 var(--fifth);
+}
+#subtitle{
+    color: var(--four);
 }
 
 .container img{
