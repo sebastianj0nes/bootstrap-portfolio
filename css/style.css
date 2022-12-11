@@ -135,13 +135,14 @@ a{
   }
   .card {
     background-color:var(--primary);
-    border: 5px solid var(--three);
+    border: 5px solid var(--four);
     margin: 0 auto;
   }
   
 .card img{
     max-height: 400px;
     max-width: 360px;
+    border: 3px solid var(--four);
 }
 .card-title{
     font-size: 25px;
