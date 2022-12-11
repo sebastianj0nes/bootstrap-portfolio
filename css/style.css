@@ -201,10 +201,15 @@ a{
     height: 500px;
     max-width: 800px;
     text-align: center;
+    padding: 40px;
 }
 
 #work{
     background-color:var(--fifth);
+    padding-bottom: 40px;
+}
+#skill_work_btn{
+    padding-top: 10px;
 }
 
 
