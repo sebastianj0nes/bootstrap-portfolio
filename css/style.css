@@ -25,7 +25,7 @@ nav{
     --two:#5fa8d3;
     --three:#ffb600;
     --four:#403d39;
-    --fifth:#F2385A;
+    --fifth:#f8ad9d;
     /* --one:#caf0f8;
     --two:#ade8f4;
     --three:#90e0ef;
@@ -167,6 +167,7 @@ a{
 /* ABOUT ME */
 #about{
     background-color: var(--three);
+    border-bottom: 5px solid var(--one);
 }
 
 #about p{
@@ -192,8 +193,25 @@ a{
     padding: 0;
     margin: 0;
     border: 5px solid var(--four);
-    padding-left: 10px;
 }
+
+/* WORK SECTION */
+.work1{
+    height: 500px;
+    max-width: 800px;
+    text-align: center;
+}
+
+#work{
+    background-color:var(--fifth);
+}
+
+
+
+
+
+
+
 
 
 
@@ -313,6 +331,11 @@ a{
 
   /* Colourful animation */
   /* Main styles */
+#s-text{
+    text-decoration: underline;
+}
+
+
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:800);
 .text {
   fill: none;
@@ -324,7 +347,7 @@ a{
   animation: stroke 6s infinite linear;
 }
 .text:nth-child(5n + 1) {
-  stroke: #F2385A;
+  stroke: var(--fifth);
   -webkit-animation-delay: -1.2s;
   animation-delay: -1.2s;
 }
