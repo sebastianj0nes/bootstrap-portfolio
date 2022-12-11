@@ -62,10 +62,6 @@ nav{
     color: var(--one)!important;
 }
 
-a{
-
-}
-
 .btn-one{
     font-size: 30px !important;
     color: var(--four)!important;
@@ -173,14 +169,25 @@ a{
 
 #about p{
     padding-top: 10px;
-    font-size: 25px;
-    color: var(--primary);
+    font-size: 28px;
+    color: var(--four);
 }
+
+#about-header{
+  padding-bottom: 40px;
+}
+
+#interests{
+  text-align: center;
+  padding-bottom: 140px;
+}
+
 
 #about a{
     text-decoration: none;
     color: var(--two);
     transition-duration: 0.3s;
+    text-shadow: -1px -1px 0 var(--four), 1px -1px 0 var(--four), -1px 1px 0 var(--four), 1px 1px 0 var(--four);
 }
 
 #about a:hover{
@@ -196,6 +203,8 @@ a{
     border: 5px solid var(--four);
 }
 
+
+
 /* WORK SECTION */
 .work1{
     height: 500px;
@@ -207,17 +216,46 @@ a{
 #work{
     background-color:var(--fifth);
     padding-bottom: 40px;
+    border-bottom: 5px solid var(--four);
 }
 #skill_work_btn{
     padding-top: 10px;
 }
 
+/* CONTACT */
+#contact{
+  text-align: center;
+  background-color: #cdb4db;
+  transition-duration: 0.3s;
+}
+#contact a{
+  text-decoration: none;
+  font-size: 20px;
+  font: "";
+}
+#contact h6{
+  padding-top: 40px;
+  font-size: 50px;
+  padding-bottom: 45px;
+  color: var(--four);
+}
 
+#logo{
+  height: 170px;
+  width: 250px;
+  padding: 15px;
+  transition-duration: 0.3s;
+}
+#logo2{
+  height: 150px;
+  width: 200px;
+  padding: 12px;
+}
 
-
-
-
-
+#logo:hover{
+  height: 190px;
+  width: 270px;
+}
 
 
 
