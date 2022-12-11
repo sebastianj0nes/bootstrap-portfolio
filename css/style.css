@@ -156,8 +156,9 @@ nav{
 }
 #skills{
     background-color: var(--two);
-    padding-bottom: 20px;
+    padding-bottom: 55px;
     border-bottom: 5px solid var(--one);
+    padding-top: 30px;
 
 }
 
@@ -227,6 +228,7 @@ nav{
   text-align: center;
   background-color: #cdb4db;
   transition-duration: 0.3s;
+  border-bottom: 5px soli;
 }
 #contact a{
   text-decoration: none;
