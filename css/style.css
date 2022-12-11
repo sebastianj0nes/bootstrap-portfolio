@@ -172,7 +172,17 @@ a{
 #about p{
     padding-top: 10px;
     font-size: 25px;
-    color: var(--four);
+    color: var(--primary);
+}
+
+#about a{
+    text-decoration: none;
+    color: var(--two);
+    transition-duration: 0.3s;
+}
+
+#about a:hover{
+    font-size: 30px;
 }
 
 #about img{
@@ -181,6 +191,7 @@ a{
     max-width: 150px;
     padding: 0;
     margin: 0;
+    border: 5px solid var(--four);
     padding-left: 10px;
 }
 
@@ -349,3 +360,10 @@ a{
 }
 
 
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 901px) {
+    #about img{
+        display: none;
+    }
+  }
