@@ -26,6 +26,11 @@ nav{
     --three:#ffb600;
     --four:#403d39;
     --fifth:#F2385A;
+    /* --one:#caf0f8;
+    --two:#ade8f4;
+    --three:#90e0ef;
+    --four:#48cae4;
+    --fifth:#00b4d8; */
 }
 
 
@@ -45,10 +50,10 @@ nav{
 
 /* Hover effects on nav button */
 #skill_btn:hover{
-    color: var(--three)!important;
+    color: var(--two)!important;
 }
 #abt_btn:hover{
-    color: var(--two)!important;
+    color: var(--three)!important;
 }
 #work_btn:hover{
     color: var(--fifth)!important;
@@ -83,7 +88,7 @@ a{
 }
 
 
-/* Jumbotron */
+/* JUMBOTRON */
 .jumbotron{
     border-top: 5px solid var(--one);
     border-bottom: 5px solid var(--one);
@@ -109,20 +114,12 @@ a{
     color: var(--four);
 }
 
-.container img{
-    border-radius: 40%;
-    max-height: 150px;
-    max-width: 150px;
-    padding: 0;
-    margin: 0;
-}
-
 .jumbotron p{
     font-size: 20px;
     float: right;
 }
 
-/* Skills section (cards) */
+/* SKILLS SECTION (cards) */
 .content{
     padding: 50px;
   }
@@ -154,7 +151,7 @@ a{
     font-size: 16px;
 }
 
-.skill_head{
+.sec_head{
     font: 5em/1 Open Sans, Impact;
     font-size: 50px;
     text-align: center;
@@ -162,7 +159,33 @@ a{
 }
 #skills{
     background-color: var(--two);
+    padding-bottom: 20px;
+    border-bottom: 5px solid var(--one);
+
 }
+
+/* ABOUT ME */
+#about{
+    background-color: var(--three);
+}
+
+#about p{
+    padding-top: 10px;
+    font-size: 25px;
+    color: var(--four);
+}
+
+#about img{
+    border-radius: 40%;
+    max-height: 250px;
+    max-width: 150px;
+    padding: 0;
+    margin: 0;
+    padding-left: 10px;
+}
+
+
+
 
 
 /* ADDITIONAL CSS (button effect etc) */
