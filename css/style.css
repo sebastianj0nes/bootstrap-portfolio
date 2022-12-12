@@ -88,7 +88,7 @@ nav{
 .jumbotron{
     border-top: 5px solid var(--one);
     border-bottom: 5px solid var(--one);
-    background-image: url(/Users/user/bootcamp/challenge_repos/bootstrap-portfolio/images/mb_b6.png);
+    background-image: url(../images/mb_b6.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -172,6 +172,7 @@ nav{
     padding-top: 10px;
     font-size: 28px;
     color: var(--four);
+    text-align: center;
 }
 
 #about-header{
