@@ -22,7 +22,7 @@ nav{
 
     /* Animation colours */
     --one:#80ed99;
-    --two:#5fa8d3;
+    --two:#49b6ff;
     --three:#ffb600;
     --four:#403d39;
     --fifth:#f8edeb;
@@ -31,13 +31,6 @@ nav{
     --three:#90e0ef;
     --four:#48cae4;
     --fifth:#00b4d8; */
-}
-
-
-
-.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
-    background-color: var(--button_bg) !important;
-    border: none;
 }
 
 /* NAV */
@@ -71,6 +64,10 @@ nav{
     text-decoration: none;
     background-color: var(--fifth);
     padding: 15px;
+    transition-duration: 0.15s;
+}
+#skill_work_btn:hover{
+  box-shadow: 3px 5px var(--text_colour);
 }
 
 /* Animated Font */
@@ -106,6 +103,7 @@ nav{
     text-align: middle;
     text-shadow: -1px -1px 0 var(--fifth), 1px -1px 0 var(--fifth), -1px 1px 0 var(--fifth), 1px 1px 0 var(--fifth);
 }
+
 #subtitle{
     color: var(--four);
 }
@@ -259,10 +257,6 @@ nav{
   height: 190px;
   width: 270px;
 }
-
-
-
-
 
 /* ADDITIONAL CSS (button effect etc) */
 
